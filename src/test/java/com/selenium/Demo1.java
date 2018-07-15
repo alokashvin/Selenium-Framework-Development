@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Demo1 {
 	
 	@Test
-	public void testing(){
+	public void testingselenium(){
 		System.setProperty("webdriver.chrome.driver", "F:/Automation/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
